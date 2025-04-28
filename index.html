@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>To-do App</title>
+</head>
+
+<body class="min-h-screen ">
+
+  <header>
+    <nav class="bg-[#0f172a]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <span class="rounded-md bg-gray-800 px-4 py-2 text-sm font-medium text-white">To-do App</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20">
+
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-bold text-white">Want to add a task?</h1>
+    </div>
+
+    <div class="flex justify-center mb-10">
+      <div class="flex flex-col sm:flex-row w-full max-w-md items-center gap-4 px-4">
+        <input id="taskInput" type="text"
+          class="flex-grow w-full rounded-md bg-white py-2 px-4 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Enter new task">
+        <button id="addTaskBtn"
+          class="w-full sm:w-auto rounded-md bg-[#0f172a] hover:bg-gray-700 text-white font-bold py-2 px-6">
+          Add
+        </button>
+      </div>
+    </div>
+
+ 
+    <div class="flex justify-center px-4 overflow-x-auto">
+      <table id="taskTable" class="w-full max-w-4xl bg-white rounded-md shadow-lg hidden border border-gray-300">
+        <thead class="bg-gray-200 border-b border-gray-300">
+          <tr class="text-center text-sm">
+            <th class="px-3 py-2 font-semibold">Sr. No</th>
+            <th class="px-3 py-2 font-semibold">Status</th>
+            <th class="px-3 py-2 font-semibold text-left">Task</th>
+            <th class="px-3 py-2 font-semibold">Edit</th>
+            <th class="px-3 py-2 font-semibold">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Tasks will appended here -->
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

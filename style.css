@@ -1,0 +1,19 @@
+
+body {
+  background-color: #1e293b;
+  font-family: var(--font-);
+}
+
+header span {
+  display: inline-block;
+  font-size: 14px;
+}
+main .submit{
+  background-color:#7c86ff;
+  color:white;
+}
+tr.dragging {
+  opacity: 0.5;
+}
+
+
