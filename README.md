@@ -1,11 +1,8 @@
 # TODO List Web App
 
 A responsive and interactive TODO list web app built using **HTML**, **Tailwind CSS**, and **JavaScript**. This app allows users to add, edit, delete, and mark tasks as complete or pending. It uses **localStorage** to persist tasks even after the page refreshes.
-![Screenshot](https://i.postimg.cc/pTvp7jct/Screenshot-2025-04-28-212344.png)
+![Screenshot](https://i.imgur.com/YtFnk6u.png)
 ![Screenshot](https://i.postimg.cc/DZc8KzR4/Screenshot-2025-04-28-212737.png)
-![Screenshot](https://drive.google.com/file/d/1JH_QteS-8Szs-3WEswTQzI8JNKWmVSZl/view?usp=sharing)
-
-
 
 ---
 
